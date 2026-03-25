@@ -1,17 +1,15 @@
 # for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
 
 [package]
-name = ""
+name = "stem-pset"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
-authors = []
+authors = ["Samyak Jain"]
 license = "Unlicense"
-description = ""
-homepage = ""
-repository = ""
-keywords = []
-categories = []
-disciplines = []
+description = "A problem set template for STEM coursework."
+repository = "https://github.com/samyakj5/stem-pset"
+keywords = ["pset", "homework", "stem", "STEM"]
+categories = ["report"]
 # compiler = ""
 exclude = [
   ".github",
@@ -28,6 +26,3 @@ exclude = [
 # path = "template"
 # entrypoint = "main.typ"
 # thumbnail = "thumbnail.png"
-
-# [tool.mytool]
-# foo = "bar"

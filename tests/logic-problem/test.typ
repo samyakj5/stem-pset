@@ -1,15 +1,3 @@
-# The `stem-pset` Package
-<div align="center">Version Unreleased</div>
-
-Homework template for STEM coursework and problem sets. Spin-off of [adaptable-pset](https://github.com/stuxf/adaptable-pset?tab=readme-ov-file) with some modifications and additional functions for notation I commonly find myself using in proofs.
-
-## Example
-
-![example1](tests/logic-problem/ref/1.png)
-
-## Example Code
-
-```
 #import "/src/lib.typ" as stem-pset: *
 
 #let class = "math 347h"
@@ -53,4 +41,3 @@ $ forall b in B, exists a in A "such that" f(a) = b $
 So there exists an $a in A$ such that $f(a) = b$. Then $g(f(a)) = g(b) = c$. This means that the composition $g compose f$ is surjective.
 
 #Q()
-```
