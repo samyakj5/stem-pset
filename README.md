@@ -19,8 +19,8 @@ Homework template for STEM coursework and problem sets. Spin-off of [adaptable-p
 
 ## Example Code
 
-```
-#import "/src/lib.typ" as stem-pset: *
+```typ
+#import "@preview/stem-pset:0.1.0: *"
 
 #let class = "math 347h"
 #let assignment = "Homework 4"
