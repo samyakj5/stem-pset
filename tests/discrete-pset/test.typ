@@ -3,7 +3,7 @@
 #let class = "math 347h"
 #let assignment = "Homework 4"
 #let author = "Samyak Jain"
-#let logo = "/tests/assets/uofi.png"
+#let logo = image("/tests/assets/uofi.png", height: 25pt)
 #let instructor = "Prof. Fernandough"
 #let semester = "Fall 2025"
 #let due-time = "September 25, 2025"

@@ -1,7 +1,7 @@
 # The `stem-pset` Package
 <div align="center">Version 0.1.0</div>
 
-Homework template for STEM coursework and problem sets. Spin-off of [adaptable-pset](https://github.com/stuxf/adaptable-pset?tab=readme-ov-file) with some modifications and additional functions for notation I commonly find myself using in proofs.
+Homework template for STEM coursework and problem sets. Spin-off of [adaptable-pset](https://github.com/stuxf/adaptable-pset?tab=readme-ov-file) with some modifications and additional functions.
 
 ## Examples
 
@@ -20,12 +20,14 @@ Homework template for STEM coursework and problem sets. Spin-off of [adaptable-p
 ## Example Code
 
 ```typ
-#import "@preview/stem-pset:0.1.0: *"
+#import "@preview/stem-pset:0.1.0": *
 
 #let class = "math 347h"
 #let assignment = "Homework 4"
 #let author = "Samyak Jain"
-#let logo = "/src/assets/uofi.png"
+// To use a logo, add an image to this folder and replace none:
+// #let logo = image("your-logo.png", height: 25pt)
+#let logo = none
 #let instructor = "Prof. Fernandough"
 #let semester = "Fall 2025"
 #let due-time = "September 25, 2025"

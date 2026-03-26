@@ -1,9 +1,11 @@
-#import "/src/lib.typ" as stem-pset: *
+#import "@preview/stem-pset:0.1.0": *
 
 #let class = "math 347h"
 #let assignment = "Homework 4"
 #let author = "Samyak Jain"
-#let logo = image("/tests/assets/mit.png", height: 25pt)
+// To use a logo, add an image to this folder and replace none:
+// #let logo = image("your-logo.png", height: 25pt)
+#let logo = none
 #let instructor = "Prof. Fernandough"
 #let semester = "Fall 2025"
 #let due-time = "September 25, 2025"

@@ -65,7 +65,7 @@
 ) = {
 
   let maybe-logo = if logo != none {
-    [#box(image(logo, height: 25pt), height: 46pt)]
+    [#box(logo, height: 46pt)]
   } else {
     []
   }
